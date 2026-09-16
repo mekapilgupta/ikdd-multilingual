@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-08-18T22:18:33.274588+00:00",
+  "per_language": {
+    "ory_Orya": {
+      "n": 900,
+      "corrections_applied": 900,
+      "rollbacks": 0,
+      "chrf_before": 56.271,
+      "chrf_after": 3.12,
+      "chrf_delta": -53.151,
+      "labse_before": 0.8746,
+      "labse_after": 0.8907,
+      "labse_delta": 0.0161
+    },
+    "asm_Beng": {
+      "n": 900,
+      "corrections_applied": 899,
+      "rollbacks": 1,
+      "chrf_before": 54.855,
+      "chrf_after": 3.226,
+      "chrf_delta": -51.629,
+      "labse_before": 0.762,
+      "labse_after": 0.7758,
+      "labse_delta": 0.0138
+    },
+    "sin_Sinh": {
+      "n": 900,
+      "corrections_applied": 900,
+      "rollbacks": 0,
+      "chrf_before": 53.237,
+      "chrf_after": 4.383,
+      "chrf_delta": -48.854,
+      "labse_before": 0.8816,
+      "labse_after": 0.9035,
+      "labse_delta": 0.022
+    },
+    "mlt_Latn": {
+      "n": 900,
+      "corrections_applied": 900,
+      "rollbacks": 0,
+      "chrf_before": 67.967,
+      "chrf_after": 27.093,
+      "chrf_delta": -40.874,
+      "labse_before": 0.8928,
+      "labse_after": 0.9287,
+      "labse_delta": 0.0359
+    }
+  },
+  "total_applied": 3599,
+  "total_rollbacks": 1
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-08-18T22:15:12.867456+00:00",
+  "models_used": {
+    "stage1": "google/gemini-3.7-flash:batch",
+    "stage2": "qwen/qwen3.7-flash"
+  },
+  "total_items": 3600,
+  "per_language": {
+    "ory_Orya": {
+      "n": 900,
+      "orig_chrf_mean": 56.27,
+      "new_chrf_mean": 3.25,
+      "chrf_delta": -53.02,
+      "items_improved": 0,
+      "items_degraded": 900,
+      "items_rolled_back": 0,
+      "orig_labse_mean": 0.8746,
+      "new_labse_mean": 0.8756,
+      "labse_delta": 0.0011
+    },
+    "asm_Beng": {
+      "n": 900,
+      "orig_chrf_mean": 54.86,
+      "new_chrf_mean": 3.15,
+      "chrf_delta": -51.7,
+      "items_improved": 0,
+      "items_degraded": 900,
+      "items_rolled_back": 0,
+      "orig_labse_mean": 0.762,
+      "new_labse_mean": 0.7679,
+      "labse_delta": 0.0059
+    },
+    "sin_Sinh": {
+      "n": 900,
+      "orig_chrf_mean": 53.24,
+      "new_chrf_mean": 3.95,
+      "chrf_delta": -49.29,
+      "items_improved": 0,
+      "items_degraded": 900,
+      "items_rolled_back": 0,
+      "orig_labse_mean": 0.8816,
+      "new_labse_mean": 0.8836,
+      "labse_delta": 0.002
+    },
+    "mlt_Latn": {
+      "n": 900,
+      "orig_chrf_mean": 67.97,
+      "new_chrf_mean": 25.79,
+      "chrf_delta": -42.18,
+      "items_improved": 8,
+      "items_degraded": 890,
+      "items_rolled_back": 0,
+      "orig_labse_mean": 0.8928,
+      "new_labse_mean": 0.8976,
+      "labse_delta": 0.0048
+    }
+  }
+}

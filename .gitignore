@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Environment & credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Jupyter & OS artifacts
+.ipynb_checkpoints/
+.DS_Store
