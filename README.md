@@ -11,7 +11,7 @@ This benchmark is designed to systematically disentangle the effects of **eviden
 ### Key Highlights
 - **900 Core Items & 4,500 Localized Instances**: Crossing 5 languages (English anchor + 4 low-resource target languages: **Odia**, **Assamese**, **Sinhala**, and **Maltese**).
 - **Hybrid Construction**: Combines 319 human-curated anchor questions with 581 synthetic reasoning questions generated under strict schema constraints.
-- **7 Grounding Conditions ($C_1$–$C_7$)**: Isolates closed-book parametric recall ($C_1$), native ($C_2$) and English ($C_3$) continuous prose, native ($C_5$) and English ($C_4$) structured knowledge triples $(s, p, o)$, 50% positional truncation ($C_6$), and cross-lingual dual triples ($C_7$).
+- **7 Grounding Conditions ($C_1$–$C_7$)**: Contrasts closed-book parametric recall ($C_1$), native ($C_2$) and English ($C_3$) continuous prose, native ($C_5$) and English ($C_4$) structured knowledge triples $(s, p, o)$, 50% positional truncation ($C_6$), and cross-lingual dual triples ($C_7$).
 - **6 Reasoning Categories ($L_0$–$L_5$)**: Stratified across Direct Surface Retrieval ($L_0$), Single-Hop Deduction ($L_1$), Multi-Hop Synthesis ($L_2$), Quantitative Reasoning ($L_3$), Formal Negation ($L_4$), and Implicit Pragmatics ($L_5$).
 - **Rigorous Auditing**: Blind solver screening (92.4% agreement), integer-sampled stratified bilingual human verification (464 instances across 116 core items, $\kappa = 0.82$, 95.5% quality index), and automated semantic audits.
 - **75,600 Experimental Trials**: Full factorially matched evaluation across three frontier model snapshots: **Google Gemini 3.7 Flash**, **OpenAI GPT-5.6 Luna**, and **Alibaba Qwen 3.7 Flash**.
@@ -192,12 +192,12 @@ Under Two One-Sided Tests (TOST) with equivalence margin $\delta = \pm 1.5\%$:
 - **Qwen 3.7 Flash**: $\Delta = -1.94\text{ pp}$ ($95\%\text{ CI}: [-2.75, -1.14]$, $p_{\text{TOST}} = 0.8593$) $\to$ **Inconclusive**.
 
 ### 3. Language Invariance Omnibus Test
-An omnibus Wald test across all target languages confirmed that target-language main effects were not statistically significant ($\chi^2(3) = 0.80, p = 0.8495$), demonstrating that evidence format and grounding availability dominate target-language choice.
+An omnibus Wald test across all target languages confirmed that target-language main effects were not statistically significant ($\chi^2(3) = 0.80, p = 0.8495$), with no significant aggregate target-language main effect in this design.
 
 ---
 
-## 📄 License & Anonymity
+## 📄 License
 
-This repository is provided for research and blind review.
+This repository is provided for research use.
 - **Code**: Licensed under [Apache 2.0](LICENSE).
 - **Data**: Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
